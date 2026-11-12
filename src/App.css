@@ -1,0 +1,53 @@
+.app-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.role-controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.role-btn {
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.role-btn.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-color: #0d6efd;
+}
+
+.admin-panel {
+    padding: 20px;
+    border: 1px solid #198754;
+    border-radius: 8px;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.admin-panel h3 {
+    margin: 0 0 8px 0;
+}
+
+.admin-panel p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.access-denied {
+    padding: 20px;
+    border: 1px solid #dc3545;
+    border-radius: 8px;
+    background-color: #f8d7da;
+    color: #842029;
+    font-weight: 500;
+}
